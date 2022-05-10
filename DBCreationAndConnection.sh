@@ -17,6 +17,7 @@ $adminlogin = "ServerAdmin"
 $password = "Password@123"
 
 # The IP address of your development computer that accesses the SQL DB.
+# If you go thtrough the Azure portal, you can get the IP address of your development computer.
 $clientIP = "172.31.32.1"
 
 # The database name.
