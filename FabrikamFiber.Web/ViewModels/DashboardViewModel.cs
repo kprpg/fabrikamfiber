@@ -1,9 +1,11 @@
-﻿namespace FabrikamFiber.Web.ViewModels
+﻿using System.Collections.Generic;
+
+using FabrikamFiber.DAL.Models;
+
+
+namespace FabrikamFiber.Web.ViewModels
 {
-    using System.Collections.Generic;
-
-    using FabrikamFiber.DAL.Models;
-
+    
     public class DashboardViewModel
     {
         public IEnumerable<ServiceTicket> Tickets { get; set; }

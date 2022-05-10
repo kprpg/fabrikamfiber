@@ -1,8 +1,10 @@
-﻿namespace FabrikamFiber.Web.ViewModels
-{
-    using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-    using FabrikamFiber.DAL.Models;
+using FabrikamFiber.DAL.Models;
+
+
+namespace FabrikamFiber.Web.ViewModels
+{
     
     public class AssignViewModel
     {

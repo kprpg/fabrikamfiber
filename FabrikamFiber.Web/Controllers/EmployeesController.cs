@@ -1,10 +1,10 @@
+using System.Web.Mvc;
+
+using FabrikamFiber.DAL.Data;
+using FabrikamFiber.DAL.Models;
+
 namespace FabrikamFiber.Web.Controllers
 {
-    using System.Web.Mvc;
-
-    using FabrikamFiber.DAL.Data;
-    using FabrikamFiber.DAL.Models;
-
     public class EmployeesController : Controller
     {
         private readonly IEmployeeRepository employeeRepository;

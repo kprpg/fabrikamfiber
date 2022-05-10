@@ -1,8 +1,10 @@
-﻿namespace FabrikamFiber.Web.ViewModels
+﻿using System.Collections.Generic;
+using System.Web.Mvc;
+using FabrikamFiber.DAL.Models;
+
+namespace FabrikamFiber.Web.ViewModels
 {
-    using System.Collections.Generic;
-    using System.Web.Mvc;
-    using FabrikamFiber.DAL.Models;
+   
 
     public class EmployeeReportViewModel : Controller
     {

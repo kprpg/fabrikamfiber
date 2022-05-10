@@ -1,6 +1,7 @@
 namespace FabrikamFiber.Web.Controllers
 {
     using System.Web.Mvc;
+    using FabrikamFiber.DAL;
 
     using DAL.Data;
     using DAL.Models;

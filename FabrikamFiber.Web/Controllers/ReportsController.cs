@@ -1,9 +1,10 @@
-﻿namespace FabrikamFiber.Web.Controllers
+﻿using System.Linq;
+using System.Web.Mvc;
+using FabrikamFiber.DAL.Data;
+using FabrikamFiber.Web.ViewModels;
+namespace FabrikamFiber.Web.Controllers
 {
-    using System.Linq;
-    using System.Web.Mvc;
-    using FabrikamFiber.DAL.Data;
-    using FabrikamFiber.Web.ViewModels;
+   
 
     public class ReportsController : Controller
     {

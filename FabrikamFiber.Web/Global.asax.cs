@@ -1,10 +1,12 @@
-﻿namespace FabrikamFiber.Web
-{
-    using System.Data.Entity;
-    using System.Web.Mvc;
-    using System.Web.Routing;
+﻿using System.Data.Entity;
+using System.Web.Mvc;
+using System.Web.Routing;
 
-    using FabrikamFiber.DAL.Data;
+using FabrikamFiber.DAL.Data;
+
+namespace FabrikamFiber.Web
+{
+  
 
     public class MvcApplication : System.Web.HttpApplication
     {

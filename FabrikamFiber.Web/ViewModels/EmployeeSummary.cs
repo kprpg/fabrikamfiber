@@ -1,6 +1,8 @@
-﻿namespace FabrikamFiber.Web.ViewModels
+﻿using FabrikamFiber.DAL.Models;
+
+namespace FabrikamFiber.Web.ViewModels
 {
-    using FabrikamFiber.DAL.Models;
+   
 
     public class EmployeeSummary
     {

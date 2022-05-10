@@ -1,9 +1,14 @@
-﻿namespace FabrikamFiber.Web.Controllers
-{
-    using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-    using FabrikamFiber.DAL.Data;
-    using FabrikamFiber.Web.ViewModels;
+using FabrikamFiber.DAL.Data;
+using FabrikamFiber.DAL.Models;
+
+namespace FabrikamFiber.Web.Controllers
+{
+    //using System.Web.Mvc;
+
+    //using FabrikamFiber.DAL.Data;
+    //using FabrikamFiber.Web.ViewModels;
 
     public class HomeController : Controller
     {
@@ -26,7 +31,7 @@
 
         public ActionResult Index()
         {
-            var viewModel = new DashboardViewModel
+            var viewModel = new ViewModels.DashboardViewModel
             {
                 ScheduleItems = this.scheduleItemRepository.All,
                 Messages = this.messageRepository.All,
