@@ -4,7 +4,7 @@ and disable Anonymous Authentication.
 For detailed instructions (including instructions for IIS 6.0), please visit
 http://go.microsoft.com/fwlink/?LinkID=213745
 
-IIS 7
+IIS 7 INSTRUCTIONS
 1. Open IIS Manager and navigate to your website.
 2. In Features View, double-click Authentication.
 3. On the Authentication page, select Windows Authentication. If Windows
