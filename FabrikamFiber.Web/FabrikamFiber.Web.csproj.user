@@ -9,7 +9,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <NameOfLastUsedPublishProfile>C:\Users\gpillai\dev\fabrikamfiber\FabrikamFiber.Web\Properties\PublishProfiles\FabrikamFiberWebDe - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\gpillai\Source\Repos\fabrikamfiber\FabrikamFiber.Web\Properties\PublishProfiles\FabrikamFiberWebx - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

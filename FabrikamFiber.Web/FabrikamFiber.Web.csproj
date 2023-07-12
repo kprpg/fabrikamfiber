@@ -20,7 +20,7 @@
     <TargetFrameworkProfile />
     <UseGlobalApplicationHostFile />
     <Use64BitIISExpress />
-    <ApplicationInsightsResourceId>/subscriptions/9bdf383f-fdb1-40dd-a00a-9bfa37eaa238/resourceGroups/rgDIS/providers/microsoft.insights/components/disappinsightsbb</ApplicationInsightsResourceId>
+    <ApplicationInsightsResourceId>/subscriptions/3e395dbd-b500-4995-a2b2-a328cfec3577/resourceGroups/TailwindTradersBackend/providers/microsoft.insights/components/tt-app-insights</ApplicationInsightsResourceId>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -349,8 +349,8 @@
     <Content Include="Views\Web.config" />
     <None Include="CodeTemplates\Scaffolders\MvcScaffolding.Controller\ControllerWithRepository.cs.t4" />
     <None Include="Dockerfile" />
-    <None Include="Properties\PublishProfiles\FabrikamFiberWebDe - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\FabrikamFiberWebDis - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\FabrikamFiberWebx - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="readme.txt" />
     <Content Include="Views\Customers\Create.cshtml" />
