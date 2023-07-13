@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9bc6b6e6-d5aa-4c16-886b-b24205ea7f12" name="gpillai@GIRISH-HPZ 2023-07-12 00:55:02" runUser="NORTHAMERICA\gpillai" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="21a515b0-fce0-4e23-8dd1-a5663d0bfca8">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution hostProcessPlatform="MSIL">
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="gpillai_GIRISH-HPZ 2023-07-12 00_55_02" />
+    <Properties>
+      <Property name="TestSettingsUIType" value="LoadTest" />
+    </Properties>
+  </TestSettings>
+  <Times creation="2023-07-12T00:55:02.8587395-05:00" queuing="2023-07-12T00:55:05.5946286-05:00" start="2023-07-12T00:55:06.1074125-05:00" finish="2023-07-12T00:55:18.9326765-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <WebTest name="WebTest1" storage="c:\users\gpillai\source\repos\fabrikamfiber\webandloadtestproject1\webtest1.webtest" id="8e187003-b561-4d29-a139-a78214d09dc7" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDEiIElkPSI4ZTE4NzAwMy1iNTYxLTRkMjktYTEzOS1hNzgyMTRkMDlkYzciIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iIiBSZXN1bHRzTG9jYWxlPSIiPg0KICA8SXRlbXM+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9ImQyYWVjMDVhLWFhMjUtNDg1ZS1iM2FlLWRkZTFhMmU5YmFlNiIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHBzOi8vZmFicmlrYW1maWJlcndlYnguYXp1cmV3ZWJzaXRlcy5uZXQvIiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIFJlcG9ydGluZ05hbWU9IiIgSWdub3JlSHR0cFN0YXR1c0NvZGU9IkZhbHNlIiAvPg0KICAgIDxSZXF1ZXN0IE1ldGhvZD0iR0VUIiBHdWlkPSIyMDJmOTE1Mi0zMmY4LTRkN2YtYWVkNi02MGE0MGRjZjFlOGEiIFZlcnNpb249IjEuMSIgVXJsPSJodHRwczovL2ZhYnJpa2FtZmliZXJ3ZWJ4LmF6dXJld2Vic2l0ZXMubmV0L0VtcGxveWVlcy8iIFRoaW5rVGltZT0iMCIgVGltZW91dD0iMzAwIiBQYXJzZURlcGVuZGVudFJlcXVlc3RzPSJUcnVlIiBGb2xsb3dSZWRpcmVjdHM9IlRydWUiIFJlY29yZFJlc3VsdD0iVHJ1ZSIgQ2FjaGU9IkZhbHNlIiBSZXNwb25zZVRpbWVHb2FsPSIwIiBFbmNvZGluZz0idXRmLTgiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjIwMmY5MTUyLTMyZjgtNGQ3Zi1hZWQ2LTYwYTQwZGNmMWU4YSIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHBzOi8vZmFicmlrYW1maWJlcndlYnguYXp1cmV3ZWJzaXRlcy5uZXQvRW1wbG95ZWVzL0NyZWF0ZSIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSIgLz4NCiAgICA8UmVxdWVzdCBNZXRob2Q9IkdFVCIgR3VpZD0iMjAyZjkxNTItMzJmOC00ZDdmLWFlZDYtNjBhNDBkY2YxZThhIiBWZXJzaW9uPSIxLjEiIFVybD0iaHR0cHM6Ly9mYWJyaWthbWZpYmVyd2VieC5henVyZXdlYnNpdGVzLm5ldC9DdXN0b21lcnMiIFRoaW5rVGltZT0iMCIgVGltZW91dD0iMzAwIiBQYXJzZURlcGVuZGVudFJlcXVlc3RzPSJUcnVlIiBGb2xsb3dSZWRpcmVjdHM9IlRydWUiIFJlY29yZFJlc3VsdD0iVHJ1ZSIgQ2FjaGU9IkZhbHNlIiBSZXNwb25zZVRpbWVHb2FsPSIwIiBFbmNvZGluZz0idXRmLTgiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjIwMmY5MTUyLTMyZjgtNGQ3Zi1hZWQ2LTYwYTQwZGNmMWU4YSIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHBzOi8vZmFicmlrYW1maWJlcndlYnguYXp1cmV3ZWJzaXRlcy5uZXQvQ3VzdG9tZXJzL0NyZWF0ZSIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iIiBSZXBvcnRpbmdOYW1lPSIiIElnbm9yZUh0dHBTdGF0dXNDb2RlPSJGYWxzZSIgLz4NCiAgPC9JdGVtcz4NCjwvV2ViVGVzdD4=">
+      <Execution id="06d721c0-17dd-484c-aa24-cedbcf4cfc0d" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="8e187003-b561-4d29-a139-a78214d09dc7" executionId="06d721c0-17dd-484c-aa24-cedbcf4cfc0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="06d721c0-17dd-484c-aa24-cedbcf4cfc0d" testId="8e187003-b561-4d29-a139-a78214d09dc7" testName="WebTest1" computerName="GIRISH-HPZ" duration="00:00:01.4599489" startTime="2023-07-12T00:55:06.5421558-05:00" endTime="2023-07-12T00:55:18.8631309-05:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06d721c0-17dd-484c-aa24-cedbcf4cfc0d">
+      <ResultFiles>
+        <ResultFile path="WebTest1.webtestResult" />
+      </ResultFiles>
+      <TestSettings name="Local" id="21a515b0-fce0-4e23-8dd1-a5663d0bfca8">
+        <Description>These are default test settings for a local test run.</Description>
+        <Execution hostProcessPlatform="MSIL">
+          <TestTypeSpecific>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="Execution Agents">
+          </AgentRule>
+        </Execution>
+        <Deployment runDeploymentRoot="gpillai_GIRISH-HPZ 2023-07-12 00_55_02" />
+        <Properties>
+          <Property name="TestSettingsUIType" value="LoadTest" />
+        </Properties>
+      </TestSettings>
+      <WebTestResultFilePath>gpillai_GIRISH-HPZ 2023-07-12 00_55_02\In\06d721c0-17dd-484c-aa24-cedbcf4cfc0d\WebTest1.webtestResult</WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>
