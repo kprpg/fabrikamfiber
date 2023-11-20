@@ -1,4 +1,15 @@
-﻿In order to use the Intranet template, you'll need to enable Windows Authentication
+﻿############################# DB BEGIN #######################################################################
+Database PRE-CREATION
+There is a database pre-creation script in the root folder called "DBCreationAndConnection.sh".  
+This script will create the database
+After the Database is created, update the connection string in the web.config file to point to the new database
+############################## DB END ######################################################################
+
+###############################################
+IIS And Authentication Setup - ONLY IF NEEDED 
+###############################################
+
+In order to use the Intranet template, you'll need to enable Windows Authentication
 and disable Anonymous Authentication.
 
 For detailed instructions (including instructions for IIS 6.0), please visit
