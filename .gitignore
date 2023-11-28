@@ -6,3 +6,6 @@
 packages/
 *.user
 *.tgz
+/FabrikamFiber.Web/Web.config
+/FabrikamFiber.Web/Web.Debug.config
+/FabrikamFiber.Web/Web.Release.config
