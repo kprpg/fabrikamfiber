@@ -1,4 +1,4 @@
-$subscriptionID="0c378775-d18a-45bb-b426-3627de556dd1"
+$subscriptionID="3e395dbd-b500-4995-a2b2-a328cfec3577"
 
 
 # Sign in to your Azure account and select your subscription.
@@ -18,13 +18,14 @@ $password = "Password@123"
 
 # The IP address of your development computer that accesses the SQL DB.
 # If you go thtrough the Azure portal, you can get the IP address of your development computer.
-$clientIP = "172.31.32.1"
+$clientIP = "70.112.72.213"
 
 # The database name.
 $databasename = "call-center-db"
 
+
 # Create a new resource group for your deployment and give it a name and a location.
-New-AzResourceGroup -Name $dbresourcegroupname -Location $location
+New-AzResourceGroup -Name $dbresourcegroupname -Location $lyocation
 
 # Create the SQL server.
 New-AzSqlServer -ResourceGroupName $dbresourcegroupname `
