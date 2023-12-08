@@ -2,7 +2,7 @@ $subscriptionID="3e395dbd-b500-4995-a2b2-a328cfec3577"
 
 
 # Sign in to your Azure account and select your subscription.
-Login-AzAccount -SubscriptionId $subscriptionID
+Login-AzAccount -SubscriptionId $subscriptionID -TenantId '3ae36a6e-2878-42c9-8801-af7910d70107'
 
 # The data center and resource name for your resources.
 $dbresourcegroupname = "fabrikam-fiber-db-group"
@@ -25,7 +25,7 @@ $databasename = "call-center-db"
 
 
 # Create a new resource group for your deployment and give it a name and a location.
-New-AzResourceGroup -Name $dbresourcegroupname -Location $lyocation
+New-AzResourceGroup -Name $dbresourcegroupname -Location $location
 
 # Create the SQL server.
 New-AzSqlServer -ResourceGroupName $dbresourcegroupname `

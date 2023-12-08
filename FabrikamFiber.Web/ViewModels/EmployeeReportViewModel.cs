@@ -12,6 +12,7 @@ namespace FabrikamFiber.Web.ViewModels
 
         public string GetCustomerSummary(Customer customer)
         {
+            
             return string.Format("{0}, {1}", customer.FullName, customer.Address.City);
         }
     }

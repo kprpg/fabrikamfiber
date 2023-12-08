@@ -43,7 +43,7 @@ namespace FabrikamFiber.Web.Controllers
             return View(this.serviceTicketRepository.FindIncluding(id, serviceticket => serviceticket.Customer, serviceticket => serviceticket.CreatedBy, serviceticket => serviceticket.AssignedTo));
         }
 
-        public ViewResult Assign(int id)
+        public ViewResult Assign(int id) 
         {
             var viewModel = new AssignViewModel
             {
@@ -194,9 +194,18 @@ namespace FabrikamFiber.Web.Controllers
 
         public JsonResult GetLogEntries(int id)
         {
-            var result = this.serviceLogEntryRepository.All.Where(entry => entry.ServiceTicketID == id);
-            return Json(new { entries = result.ToList() }, JsonRequestBehavior.AllowGet);
+            try
+            {
+                var result = this.serviceLogEntryRepository.All.Where(entry => entry.ServiceTicketID == id).ToList();
+                return Json(new { entries = result }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception details here
+                return Json(new { error = "An error occurred while getting log entries." }, JsonRequestBehavior.AllowGet);
+            }
         }
+
     }
 }
 
