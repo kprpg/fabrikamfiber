@@ -12,8 +12,16 @@ namespace FabrikamFiber.Web.ViewModels
 
         public string GetCustomerSummary(Customer customer)
         {
+
+           
+                if (customer == null)
+                {
+                    return "Customer data not available";
+                }
+                //string.Equals(customer.FullName, "John Doe");
+                return string.Format("{0}, {1}", customer.FullName, customer.Address.City);
             
-            return string.Format("{0}, {1}", customer.FullName, customer.Address.City);
+
         }
     }
 }

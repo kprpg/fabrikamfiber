@@ -18,7 +18,7 @@ $password = "Password@123"
 
 # The IP address of your development computer that accesses the SQL DB.
 # If you go thtrough the Azure portal, you can get the IP address of your development computer.
-$clientIP = "70.112.72.213"
+$clientIP = "24.170.37.88"
 
 # The database name.
 $databasename = "call-center-db"
@@ -36,7 +36,7 @@ New-AzSqlServer -ResourceGroupName $dbresourcegroupname `
 # Create the firewall rule to allow your development computer to access the server.
 New-AzSqlServerFirewallRule -ResourceGroupName $dbresourcegroupname `
     -ServerName $servername `
-    -FirewallRuleName "AllowClient" -StartIpAddress $clientIP -EndIpAddress $clientIP
+    -FirewallRuleName "AllowClient2" -StartIpAddress $clientIP -EndIpAddress $clientIP
 
 # Create the database in the server.
 New-AzSqlDatabase  -ResourceGroupName $dbresourcegroupname `
