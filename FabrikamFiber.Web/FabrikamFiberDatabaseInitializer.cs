@@ -4,10 +4,20 @@ using System.Data.Entity;
 using System.Globalization;
 using FabrikamFiber.DAL.Data;
 using FabrikamFiber.DAL.Models;
+using System.Data.Entity;
+using System.Data.Entity.SqlServer;
+
+
 
 namespace FabrikamFiber.Web
 {
-   
+    //public class MyDbConfiguration : DbConfiguration
+    //{
+    //    public MyDbConfiguration()
+    //    {
+    //        SetExecutionStrategy("System.Data.SqlClient", () => new SqlAzureExecutionStrategy());
+    //    }
+    //}
 
     public class FabrikamFiberDatabaseInitializer : DropCreateDatabaseIfModelChanges<FabrikamFiberWebContext>
     {

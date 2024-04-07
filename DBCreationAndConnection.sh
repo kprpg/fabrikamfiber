@@ -38,10 +38,14 @@ New-AzSqlServerFirewallRule -ResourceGroupName $dbresourcegroupname `
     -ServerName $servername `
     -FirewallRuleName "AllowClient2" -StartIpAddress $clientIP -EndIpAddress $clientIP
 
+
+
 # Create the database in the server.
 New-AzSqlDatabase  -ResourceGroupName $dbresourcegroupname `
     -ServerName $servername `
     -DatabaseName $databasename `
     -RequestedServiceObjectiveName "S0"
+
+# Dump out the output variables.
 
 Write-Host "Server name is $servername"
